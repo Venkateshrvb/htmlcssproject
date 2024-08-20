@@ -1,0 +1,169 @@
+ 
+
+ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+border: 1px solid whitesmoke;
+width: 100%;
+   
+}
+li
+{
+    float: left;
+
+}
+li a 
+{
+    display: flex;
+    text-decoration: none;
+    margin:8px;
+    padding:9px;
+    font-size: 15px;
+    color: black;
+ 
+}
+
+li a:hover
+{
+    background-color:whitesmoke;
+  
+   
+}
+.search-container
+{
+  
+    margin: 5px;
+    padding: 15px;
+    position: sticky;
+    top: 0px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    z-index: 1000;
+    background-color:rgb(0, 140, 255);
+}
+
+
+   
+.search-button 
+{
+    padding: 10px 15px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+
+
+
+}
+.search-button:hover
+{
+    
+    background-color: rgb(255, 0, 0);
+}
+.login
+{
+    font-size:200%;
+    margin: 10%;
+    /* background-color: aqua;
+    color: black;
+    */
+}
+
+.cart
+{
+    padding: 40px 20px;
+    text-decoration: none;
+    color: black;
+}
+.cart:hover
+{
+    background-color: whitesmoke;
+}
+/* .flex-main
+{
+    background-color: aliceblue;
+    border: 1px solid gray;
+} */
+
+.flex-container
+{
+    display: flex;
+    background-color: white;
+   /* overflow-y: 10px; */
+    /* border: 1px solid gray; */
+}
+.flex-container>div
+{
+    margin: 10px;
+    padding: 10px 20px;
+    /* border: 1px solid gray; */
+    text-align: center;
+}
+.transform:hover
+{
+    transform: scale(1.2);
+     
+}
+.mobile
+{
+border: 1px solid wheat;
+width:20%;
+height: 150%;
+text-align: center;
+height: 60%;
+}
+.add
+{
+   padding:0px;
+   margin-left: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* color: black; */
+}
+
+.footer {
+    background-color: lightgray;
+    color: black;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.footer-section h4 {
+    margin-top: 0;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-section a:hover 
+{
+    background-color: beige;
+}
+  
